@@ -1,0 +1,169 @@
+.*{
+  padding:"0";
+  margin:"0";
+  
+}
+body{
+  display:flex;
+  background:url("file.jpg");
+  background-size:cover;
+
+}
+.navbar{
+  height:55px;
+}
+.bg{
+ background-color:green;
+}   
+#ph{
+  background-color:black;
+  color:white;
+  border:1px white solid;
+  font-size:18px;
+}
+.logo{
+   
+   color:#f08804;
+   font-size:30px;
+}
+a{
+  color:white;
+  margin-right:150px;
+  text-decoration:none;
+  font-size:20px;
+}
+button{
+   background-color:#f08804;
+   font-size:18px;
+}
+.info{
+  text-align:left;
+   width:700px;
+   height:380px;
+   background:transperent;
+   position:absolute;
+   top:200px;
+   left:100px;
+   border-radius:20px;
+   justify-content:center;
+   color:white;
+   
+
+}
+.info h1{
+   font-size:80px;
+   line-height:2px;
+
+}
+.info h3{
+  font-size:25px;
+}
+.info p{
+  font-size:40px;
+  color:#E6E6Fb;
+  
+
+}
+.form{
+   text-align:center;
+   width:300px;
+   height:360px;
+   background:black;
+   position:absolute;
+   top:150px;
+   left:870px;
+   border-radius:20px;
+   justify-content:center;
+}
+.form h2{
+     width:220px;
+     font-family:sans-serif;
+     text-align:center;
+     color:white;
+     font-size:22px;
+     background-color:blue;
+     border-radius:10px;
+     margin:2px;
+     padding:8px;
+}
+.form input{
+     width:240;
+     height:35px;
+     background:black;
+     border-bottom:1 px solid#ff7200;
+     border-top:none;
+     border-right:none;
+     border-left:none;
+     color:#fff;
+     font-size:15px;
+     letter-spacing:1px;
+     margin-top:30px;
+     font-family:sans-serif;
+     
+}
+.form input:focus{
+  outline:none; 
+}
+::placeholder{
+  color:#fff;
+  font-family:arial;
+}
+.btn{
+  text-align:center;
+  width:240px;
+  height:40px;
+  background:#ff7200;
+  font-weight:bold;
+  border:none;
+  margin-top:30px;
+  font-size:18px;
+  border-radius:10px;
+  cursor:pointer;
+  font-color:white;
+  transition:0.4 sec ease;
+}
+.btn:hover{
+   background:blue;
+   color:#ff7200;
+}
+.btn a{
+   text-decoration:none;
+   color:black;
+   
+}
+#sg{
+  color:#ff7200;
+  margin-right:0;
+  text-decoration:none;
+
+}
+.form .link{
+  font-family:arial;
+  font-size:17px;
+  padding-top:20px;
+  text-align:center;
+  color:white;
+} 
+
+} 
+.form .link a{
+   text-decoration:none;
+   color:#ff7200;
+} 
+.liw{
+  padding-top:5px;
+  padding-bottom:10px;
+  text-align:center;
+  color:white;
+}
+.icons a{
+  
+  text-decoration:none;
+  color:white;
+}
+.icons ion-icon{
+   color:white;
+   font-size:20px;
+   padding-left:14px;
+   padding-right:5px;
+}
